@@ -14,7 +14,7 @@ const menus = [
   { name: "Tentang", href: "#tentang" },
   { name: "Layanan", href: "#services" },
   { name: "Galeri", href: "#galeri" },
-  { name: "Klien", href: "#Klien" },
+  { name: "klien", href: "#klien" },
   { name: "Kontak", href: "#contact" },
 ];
 
@@ -26,10 +26,11 @@ export default function Navbar() {
     const offsets: Record<string, number> = {
       "#hero": 0,
       "#tentang": 90,
-      "#services": 80,
+      "#services": 20,
       "#projects": 110,
-      "#Klien": 110,
-      "#contact": 110,
+      "#klien": 20,
+      "#contact": 10,
+      "#galeri": 20,
     };
 
     gsap.to(window, {
@@ -74,7 +75,7 @@ export default function Navbar() {
                   scrolled ? "text-[#1d25b8]" : "text-gray-200"
                 }`}
               >
-                General Contractor
+                General Contractor & Supplier
               </p>
             </div>
           </button>
@@ -99,26 +100,6 @@ export default function Navbar() {
           </nav>
 
           {/* CTA */}
-          <SpecularButton
-            size="lg"
-            radius={18}
-            tint="#93c5fd"
-            tintOpacity={0.1}
-            blur={2}
-            textColor="#1d25b8"
-            lineColor="#ffffff"
-            baseColor="#0817f2"
-            intensity={1}
-            shineSize={10}
-            shineFade={40}
-            thickness={1}
-            speed={0.35}
-            followMouse
-            proximity={250}
-            autoAnimate={false}
-          >
-            Hubungi Kami
-          </SpecularButton>
 
           {/* Mobile Button */}
           <button
@@ -177,14 +158,26 @@ export default function Navbar() {
                 {item.name}
               </button>
             ))}
-
-            {/* <button
-              onClick={() => scrollToSection("#contact")}
-              className="mt-8 flex items-center justify-center gap-2 rounded-xl bg-[#0F3D3E] py-4 font-medium text-white transition hover:bg-[#1A5758]"
+            <SpecularButton
+              size="lg"
+              radius={18}
+              tint="#93c5fd"
+              tintOpacity={0.1}
+              blur={2}
+              textColor="#1d25b8"
+              lineColor="#ffffff"
+              baseColor="#0817f2"
+              intensity={1}
+              shineSize={10}
+              shineFade={40}
+              thickness={1}
+              speed={0.35}
+              followMouse
+              proximity={250}
+              autoAnimate={false}
             >
               Hubungi Kami
-              <ArrowRight size={18} />
-            </button> */}
+            </SpecularButton>
           </div>
         </div>
       </div>

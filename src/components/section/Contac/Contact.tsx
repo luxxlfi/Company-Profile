@@ -7,11 +7,11 @@ export default function Contact() {
       <div className="max-w-container-max mx-auto px-margin-desktop">
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="text-error font-label-bold uppercase tracking-widest">
+          <span className="uppercase tracking-[0.3em] text-sm font-semibold text-blue-400">
             Hubungi Kami
           </span>
 
-          <h2 className="font-display-lg text-headline-xl text-primary mt-4">
+          <h2 className="mt-6 text-3xl font-bold md:text-5xl">
             Mari Diskusikan Proyek Anda
           </h2>
 

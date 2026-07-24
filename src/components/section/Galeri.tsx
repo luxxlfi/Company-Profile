@@ -1,7 +1,11 @@
-export default function () {
-    return (
-        <>
-        <h1>GALARY</h1>
-        </>
-    )
+import ParallaxHeroImagesEdgeFocusDemo from "../parallax-hero-images-edge-focus-demo";
+
+export default function Galeri() {
+  return (
+    <>
+      <div className="" id="galeri">
+        <ParallaxHeroImagesEdgeFocusDemo />
+      </div>
+    </>
+  );
 }

@@ -28,7 +28,7 @@ export default function Klient() {
   ];
   return (
     <>
-      <div id="klien" className="mt-24 bg-[#141b2b] p-10" >
+      <div id="klien" className=" bg-[#141b2b] p-10" >
         {/* Header */}
         <div className="mb-16 text-center">
           <h2 className="mt-4 text-4xl font-bold text-white lg:text-5xl">

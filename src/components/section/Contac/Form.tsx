@@ -28,27 +28,18 @@ export default function ContactForm() {
 
     const whatsappMessage = `Halo PT. Pisut Jaya Mandiri,
 
-Say menghubungi perusahaan melalui website.
+Saya menghubungi perusahaan melalui website.
 
-━━━━━━━━━━━━━━━━━━━━━━
+Nama: ${form.name}
+Nomor WhatsApp: ${form.phone}
+Subjek: ${form.subject}
 
-Nama
-${form.name}
-
-Nomor WhatsApp
-${form.phone}
-
-Subjek
-${form.subject}
-
-Pesan
+Pesan:
 ${form.message}
 
-━━━━━━━━━━━━━━━━━━━━━━
-
 Terima kasih.`;
-
-    const url = `https://wa.me/62895325986369?text=${encodeURIComponent(
+    
+    const url = `https://wa.me/6282151062726?text=${encodeURIComponent(
       whatsappMessage,
     )}`;
 

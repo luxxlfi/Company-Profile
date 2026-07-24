@@ -3,8 +3,27 @@ import HeroImage from "@/assets/images/hero.png";
 import ElectricBorder from "../ElectricBorder";
 import { Building2, Handshake, HardHat, ShieldCheck } from "lucide-react";
 import SpecularButton from "../SpecularButton";
+import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export default function Hero() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const HandleContac = () => {
+    if (location.pathname === "/") {
+      document.getElementById("contact")?.scrollIntoView({
+        behavior: "smooth",
+      });
+    } else {
+      navigate("/", {
+        state: {
+          scrollTo: "contac",
+        },
+      });
+    }
+  };
+
   return (
     <section className="relative min-h-screen overflow-hidden" id="hero">
       {/* Background */}
@@ -60,6 +79,7 @@ export default function Hero() {
               followMouse
               proximity={250}
               autoAnimate={false}
+              onClick={HandleContac}
             >
               Hubungi Kami
             </SpecularButton>

@@ -16,12 +16,10 @@ export default function InfoContact() {
           </div>
 
           <div className="flex-1">
-            <p className="text-xs font-semibold uppercase tracking-widest text-error">
-              WhatsApp Center
-            </p>
+          
 
             <h3 className="mt-1 text-xl font-bold text-[#141b2b]">
-              0821 5106 2726
+               WhatsApp Center
             </h3>
 
             <p className="mt-2 text-sm leading-6 text-on-surface-variant">
@@ -70,7 +68,7 @@ export default function InfoContact() {
 
       {/* Address */}
       <a
-        href="https://www.google.com/maps/place/Studiorenang.com+Sawangan/@-6.3818207,106.7496249,21z/data=!4m9!1m2!7m1!2e1!3m5!1s0x2e69ef001f5b8ca1:0x6158c2037084912f!8m2!3d-6.3816853!4d106.749661!16s%2Fg%2F11zk763x2f?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
+        href="https://www.google.com/maps/place/WORKSHOP+PT.+PISUT+JAYA+MANDIRI+(PJM)/@0.5324469,117.5139669,19.25z/data=!4m14!1m7!3m6!1s0x320a350044c67411:0x10e1333f9d8c2ca3!2sWORKSHOP+PT.+PISUT+JAYA+MANDIRI+(PJM)!8m2!3d0.5326013!4d117.5142617!16s%2Fg%2F11yy2lq384!3m5!1s0x320a350044c67411:0x10e1333f9d8c2ca3!8m2!3d0.5326013!4d117.5142617!16s%2Fg%2F11yy2lq384?entry=ttu&g_ep=EgoyMDI2MDcxOS4wIKXMDSoASAFQAw%3D%3D"
         target="_blank"
         rel="noopener noreferrer"
         className="group block rounded-2xl border border-outline-variant/30 bg-white/60 backdrop-blur-xl p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-400 hover:shadow-xl"
@@ -90,7 +88,7 @@ export default function InfoContact() {
             </h3>
 
             <p className="mt-2 text-sm leading-6 text-on-surface-variant">
-              Samarinda,
+              Sangatta,
               <br />
               Kalimantan Timur, Indonesia
             </p>

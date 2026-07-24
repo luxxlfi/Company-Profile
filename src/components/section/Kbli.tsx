@@ -169,28 +169,6 @@ export default function KBLI() {
           </div>
         ))}
       </div>
-
-      {/* Footer */}
-      {/* <div className="mt-16 rounded-3xl border border-outline-variant/30 bg-primary p-8 md:p-10">
-        <div className="mx-auto flex max-w-5xl flex-col items-center gap-5 text-center">
-          <Building2 size={40} className="text-blue-500" />
-
-          <h3 className="text-2xl font-bold text-white">
-            Bidang Usaha Resmi & Terverifikasi
-          </h3>
-
-          <p className="max-w-4xl leading-8 text-white/80">
-            Seluruh klasifikasi KBLI di atas merupakan bidang usaha resmi yang
-            dimiliki{" "}
-            <span className="font-semibold text-blue-500">
-              PT Pisut Jaya Mandiri
-            </span>
-            . Legalitas ini menjadi dasar perusahaan dalam memberikan layanan
-            konstruksi, pertambangan, penyewaan alat berat, perdagangan, hingga
-            penyediaan tenaga kerja profesional secara terpercaya.
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 }
