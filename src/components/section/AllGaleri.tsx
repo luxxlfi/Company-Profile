@@ -8,6 +8,10 @@ export default function () {
       import: "default",
     },
   );
+
+  console.log("Image Modules:", imageModules);
+  console.log("Keys:", Object.keys(imageModules));
+  
   const items = Object.values(imageModules).map((img, index) => ({
     id: String(index + 1),
     img: img as string,
