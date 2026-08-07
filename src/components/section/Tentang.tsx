@@ -22,7 +22,7 @@ export default function Tentang() {
             </div>
 
             <div className="absolute -bottom-8 right-8 rounded-2xl bg-[#141b2b] p-8 text-white shadow-2xl">
-              <HardHat className="mb-3 text-blue-400" size={32} />
+           
               <h3 className="text-xl font-semibold">Inovasi Berkelanjutan</h3>
               <p className="mt-2 text-zinc-300">
                 Solusi konstruksi modern dengan standar kualitas tinggi.

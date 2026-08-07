@@ -1,8 +1,8 @@
-import { Users, Building2, Truck, CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 const services = [
   {
-    icon: Users,
+
     title: "Penyedia Tenaga Kerja",
     description:
       "Penyedia jasa tenaga kerja dan alih daya (outsourcing) terpercaya untuk membantu perusahaan memangkas proses rekrutmen panjang dan biaya operasional HRD tinggi.",
@@ -10,7 +10,7 @@ const services = [
     dark: false,
   },
   {
-    icon: Building2,
+   
     title: "Jasa Konstruksi",
     description:
       "General contractor terintegrasi yang berdedikasi menghadirkan solusi pembangunan berkualitas tinggi, mulai dari hunian, gedung bertingkat, hingga infrastruktur sipil.",
@@ -18,7 +18,7 @@ const services = [
     dark: true,
   },
   {
-    icon: Truck,
+
     title: "Rental Unit Alat Berat",
     description:
       "Jasa penyewaan alat berat terkemuka untuk mendukung sektor konstruksi, infrastruktur, pertambangan, hingga perkebunan dengan performa armada optimal.",
@@ -48,7 +48,7 @@ export default function Services() {
 
         <div className="grid gap-8 lg:grid-cols-3">
           {services.map((service, index) => {
-            const Icon = service.icon;
+        
 
             return (
               <div
@@ -59,25 +59,7 @@ export default function Services() {
                     : "border border-gray-200 bg-white"
                 } p-10`}
               >
-                {/* Icon */}
-
-                <div
-                  className={`mb-8 flex h-16 w-16 items-center justify-center transition-colors duration-300 ${
-                    service.dark
-                      ? "bg-white group-hover:bg-blue-400"
-                      : "bg-[#141b2b] group-hover:bg-blue-400"
-                  }`}
-                >
-                  <Icon
-                    size={34}
-                    className={
-                      service.dark
-                        ? "text-[#141b2b] group-hover:text-white"
-                        : "text-white group-hover:text-[#141b2b]"
-                    }
-                  />
-                </div>
-
+                
                 {/* Title */}
 
                 <h3

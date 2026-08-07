@@ -1,7 +1,7 @@
 import Threads from "@/components/Threads";
 import HeroImage from "@/assets/images/hero.png";
 import ElectricBorder from "../ElectricBorder";
-import { Building2, Handshake, HardHat, ShieldCheck } from "lucide-react";
+
 import SpecularButton from "../SpecularButton";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -88,22 +88,22 @@ export default function Hero() {
           {/* Mobile Features */}
           <div className="mt-10 grid grid-cols-2 gap-3 lg:hidden">
             <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/10 p-3 backdrop-blur-xl">
-              <Building2 className="text-blue-300" size={18} />
+         
               <span className="text-sm text-white">Konstruksi</span>
             </div>
 
             <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/10 p-3 backdrop-blur-xl">
-              <HardHat className="text-blue-300" size={18} />
+             
               <span className="text-sm text-white">Profesional</span>
             </div>
 
             <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/10 p-3 backdrop-blur-xl">
-              <ShieldCheck className="text-blue-300" size={18} />
+            
               <span className="text-sm text-white">Berkualitas</span>
             </div>
 
             <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/10 p-3 backdrop-blur-xl">
-              <Handshake className="text-blue-300" size={18} />
+            
               <span className="text-sm text-white">Terpercaya</span>
             </div>
           </div>
@@ -132,23 +132,22 @@ export default function Hero() {
               </p>
 
               <div className="mt-8 grid grid-cols-2 gap-4">
-                <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10">
-                  <Building2 className="text-blue-500" size={20} />
+                <div className="flex justify-center items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10">
+                 
                   <span className="text-blue-500">Konstruksi</span>
                 </div>
 
-                <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10">
-                  <HardHat className="text-blue-500" size={20} />
+                <div className="flex justify-center items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10">
+                
                   <span className="text-blue-500">Profesional</span>
                 </div>
 
-                <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10">
-                  <ShieldCheck className="text-blue-500" size={20} />
+                <div className="flex justify-center items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10">
                   <span className="text-blue-500">Berkualitas</span>
                 </div>
 
-                <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10">
-                  <Handshake className="text-blue-500" size={20} />
+                <div className="flex justify-center items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10">
+                  
                   <span className="text-blue-500">Terpercaya</span>
                 </div>
               </div>

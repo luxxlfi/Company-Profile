@@ -1,11 +1,12 @@
 import {
-  Building2,
   Mail,
   Phone,
   MapPin,
   Globe,
   ArrowUpRight,
 } from "lucide-react";
+
+
 
 export default function Footer() {
   return (
@@ -16,7 +17,7 @@ export default function Footer() {
           <div className="lg:col-span-5">
             <div className="flex items-center gap-4">
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-500/10 text-blue-400">
-                <Building2 size={30} />
+                logo
               </div>
 
               <div>

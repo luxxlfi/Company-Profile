@@ -116,7 +116,7 @@ export default function KBLI() {
       {/* Header */}
       <div className="kbli-header mb-16 text-center">
         <span className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-blue-500">
-          <Building2 size={16} />
+
           Legalitas & Klasifikasi
         </span>
 
